@@ -26,3 +26,7 @@ RegisterAdonisCommand("unfprison", 1, function(raw)
     end
     RunAdonisCommand("!print Un-Federal Prisoned "..v.Name.."!")
 end)
+
+RegisterAdonisCommand("hii",1,function(a)
+    RunAdonisCommand(":"..a)
+end)
